@@ -59,7 +59,7 @@ export const Footer = styled(motion.footer)`
 
       a {
         text-decoration: none;
-        color: #393c41;
+        color: #fff;
 
         &:hover {
           color: #000;

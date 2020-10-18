@@ -1,25 +1,30 @@
 import styled from 'styled-components';
 
+import airplane from '../../assets/airplane.jpg';
+import car from '../../assets/car.jpg';
+import ship from '../../assets/ship.jpg';
+import motorcycle from '../../assets/motorcycle.jpg';
+import train from '../../assets/train.jpg';
+
 export const Container = styled.div`
   .colored:nth-child(1) {
-    background: #f1ffe7;
+    background: url(${airplane}) no-repeat;
+    background-size: cover;
   }
   .colored:nth-child(2) {
-    background: #dfffd9;
+    background: url(${ship}) no-repeat;
+    background-size: cover;
   }
   .colored:nth-child(3) {
-    background: #cdfeca;
+    background: url(${car}) no-repeat;
+    background-size: cover;
   }
   .colored:nth-child(4) {
-    background: #bbfebb;
+    background: url(${motorcycle}) no-repeat;
+    background-size: cover;
   }
   .colored:nth-child(5) {
-    background: #a9fdac;
-  }
-  .colored:nth-child(6) {
-    background: #90f29c;
-  }
-  .colored:nth-child(7) {
-    background: #77e68c;
+    background: url(${train}) no-repeat;
+    background-size: cover;
   }
 `;
